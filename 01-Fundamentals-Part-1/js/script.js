@@ -205,3 +205,62 @@
 // } else {
 //   console.log(`looks like smth is broken`)
 // }
+
+//THE SWITCH STATEMENT
+// const theDay = "monday";
+// console.log(`SWITCH SYSTEM`);
+// switch (theDay) {
+//   case "monday":
+//     console.log(`I'm planning course schedule`);
+//     console.log(`I'm meeting with my coworkers`);
+//     break;
+//   case "tuesday":
+//     console.log(`What a wonderful second day of a working week...`);
+//     break;
+//   case "wednesday":
+//   case "thursday":
+//     console.log(`I'm preparing for my coding practice today!`);
+//     break;
+//   case "friday":
+//     console.log(`Still working!`);
+//     break;
+//   case "saturday":
+//   case "sunday":
+//     console.log(`Having a deserved rest!`);
+//     break;
+//   default:
+//     console.log(`the day isn't defined`);
+// }
+// console.log(`IF-ELSE SYSTEM`);
+// if (theDay === "monday") {
+//   console.log(`I'm planning course schedule`);
+//   console.log(`I'm meeting with my coworkers`);
+// } else if (theDay === "tuesday") {
+//   console.log(`What a wonderful second day of a working week...`);
+// } else if (theDay === "wednesday" || theDay === "thursday") {
+//   console.log(`I'm preparing for my coding practice today!`);
+// } else if (theDay === "friday") {
+//   console.log(`Still working!`);
+// } else if (theDay === "saturday" || theDay === "sunday") {
+//   console.log(`Having a deserved rest!`);
+// } else {
+//   console.log(`the day isn't defined`);
+// }
+
+//TERNARY OPERATOR
+// const age = 25;
+// age <= 18
+//   ? console.log(`I'm a water drinking fan 💧`)
+//   : console.log(`I'm a wine drinking fan 🍷`);
+// const ternAgeDrink = age <= 18 ? "water 💧" : "wine 🍷";
+// console.log(ternAgeDrink);
+// let ifAgeDrink;
+// if (age <= 18) ifAgeDrink = "water 💧";
+// else ifAgeDrink = "wine 🍷";
+// console.log(ifAgeDrink);
+// console.log(`I like to drink ${age <= 18 ? "water 💧" : "wine 🍷"}`);
+
+// CHALLENGE #4
+// const billValue = 430;
+// const tip = billValue >= 50 && billValue <= 300 ? billValue*0.15 : billValue*0.2;
+// console.log(`This bill was ${billValue}, the tip was ${tip}, the total is ${billValue + tip}`);
